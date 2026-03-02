@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ecc3b5f6;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Restaurant Name-->
+    <h1>Delicious Bites</h1>
+
+    <!-- Welcome Message-->
+    <h2>Welcome to Delicious Bites</h2>
+
+    <!-- About Section-->
+    <h3>About Us</h3>
+    <p>
+        Delicious Bites is a family-friendly restaurant that serves fresh and tasty Ugandan meals every day.
+        We are the best restaurant in Kampala that will serve you finger licking local food with excellent customer
+        service in a warm and welcoming environment.
+    </p>
+
+    <hr>
+
+    <!-- Menu Section-->
+    <h3>Our Menu</h3>
+
+    <h4>Drinks</h4>
+    <ul>
+        <li>Fresh Juice: Mango, Passion, Orange, Pineapple and Watermelon</li>
+        <li>Smoothies: Mango, Passion, Orange, Pineapple and Watermelon</li>
+        <li>Mineral Water</li>
+        <li>Tea: Coffee, Chocolate</li>
+    </ul>
+
+    <br>
+
+    <!--Main Meals List-->
+    <h4>Main Meals</h4>
+    <ol>
+        <li>Grilled Chicken with Fries or Rice</li>
+        <li>Beef Stew with Fries or Rice</li>
+        <li>Vegetable Soup</li>
+        <li>Fish with Fries or Rice</li>
+    </ol>
+
+    <br>
+
+    <hr>
+
+    <!--Price Table Section-->
+    <h3>Price Table</h3>
+
+    <table>
+        <tr>
+            <th>Food Item</th>
+            <th>Price (UGX)</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td>Grilled Chicken with Fries or Rice</td>
+            <td>35,000</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Beef Stew with Fries or Rice</td>
+            <td>30,000</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Vegetable Soup</td>
+            <td>25,000</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Fish with Fries or Rice</td>
+            <td>40,000</td>
+            <td>Available</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Food Image Section -->
+    <h3>Our Special Dish</h3>
+    <img src="food.jpg" alt="Local Ugandan Food at Delicious Bites" width="300">
+
+    <p>Visit us today and enjoy the best meals in town!</p>
+
+    <!--Anchor Link -->
+    <p>
+        <a href="https://www.instagram.com/popular/ugandan-food/" target="_blank">Visit Our Instagram Page</a>
+    </p>
+
+    <br>
+
+    <!-- Order Button -->
+    <p>
+        <button>Order Now</button>
+    </p>
+
+    <br>
+
+    <!--Contact Form -->
+    <h3>Contact Form</h3>
+
+    <form action="submit_form.php" method="post">
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
